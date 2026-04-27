@@ -1,0 +1,2385 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0a40114f-700d-4a7c-828c-e244751d349b")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(circle
+		(center 187.96 48.006)
+		(radius 2.54)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 71 253 255 1)
+		)
+		(uuid 0d76f7b3-5db9-4713-8e8a-7d1999b7428a)
+	)
+	(rectangle
+		(start 163.576 152.146)
+		(end 181.356 162.306)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 5 246 255 1)
+		)
+		(uuid 1113bef2-9c29-4faa-8318-4b038e892879)
+	)
+	(circle
+		(center 195.58 48.006)
+		(radius 2.54)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 86 74 1)
+		)
+		(uuid 113eacc2-5fb1-4e61-8626-3a02eb12a958)
+	)
+	(rectangle
+		(start 58.42 109.22)
+		(end 71.12 132.08)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 42 61 1)
+		)
+		(uuid 1726ed74-2e35-4859-8721-64071ac45e1f)
+	)
+	(rectangle
+		(start 55.88 40.64)
+		(end 213.36 175.26)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1dbaf351-410b-42d4-9836-4a8eb18b6dfc)
+	)
+	(rectangle
+		(start 181.61 56.896)
+		(end 205.74 96.52)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 219 255 177 1)
+		)
+		(uuid 3461c5f2-d318-4dae-bd81-db173781a28e)
+	)
+	(rectangle
+		(start 15.24 50.8)
+		(end 38.1 71.12)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 380978e8-3302-4a8f-ade9-e2c5034ee92c)
+	)
+	(rectangle
+		(start 112.776 152.146)
+		(end 130.556 162.306)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 1 237 255 1)
+		)
+		(uuid 4380a747-3de8-4bcb-bfc9-941a3c60bf7a)
+	)
+	(rectangle
+		(start 58.42 139.7)
+		(end 71.12 162.56)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 42 61 1)
+		)
+		(uuid 47c4b8fd-1497-4316-8f7d-ba5fc25dbe80)
+	)
+	(rectangle
+		(start 15.24 142.24)
+		(end 38.1 162.56)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 64700f8b-69b7-4db2-a5a9-8b9a5969c6dc)
+	)
+	(circle
+		(center 180.34 48.006)
+		(radius 2.54)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 162 255 122 1)
+		)
+		(uuid 68707c95-1e16-4fcd-8c56-116bf68e0828)
+	)
+	(rectangle
+		(start 58.42 78.74)
+		(end 71.12 101.6)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 42 61 1)
+		)
+		(uuid 74aa2ef6-95e6-4cc4-912f-811b8e9352ea)
+	)
+	(rectangle
+		(start 88.9 45.72)
+		(end 106.68 55.88)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 121 0 1)
+		)
+		(uuid 7f120cdb-f2cd-45b0-899f-5b138249a6e9)
+	)
+	(rectangle
+		(start 119.888 100.838)
+		(end 149.098 121.92)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 126 255 148 1)
+		)
+		(uuid a8ef0961-9cb4-4791-9295-6f0f1dee4762)
+	)
+	(rectangle
+		(start 113.03 45.72)
+		(end 130.81 55.88)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 136 0 1)
+		)
+		(uuid b0232941-037e-4c4c-ac33-94848cebe0d8)
+	)
+	(rectangle
+		(start 138.176 152.146)
+		(end 155.956 162.306)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 251 255 1)
+		)
+		(uuid b6e3dfa7-8e71-40ac-b018-56be4136bd81)
+	)
+	(rectangle
+		(start 137.16 45.72)
+		(end 154.94 55.88)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 127 0 1)
+		)
+		(uuid cb5878a1-e779-4d9e-9bfb-59d62fb228bb)
+	)
+	(rectangle
+		(start 141.986 64.008)
+		(end 162.306 82.296)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 42 61 1)
+		)
+		(uuid cc86adba-0bff-4f97-a459-5be9ea708752)
+	)
+	(rectangle
+		(start 182.88 112.522)
+		(end 203.2 144.78)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 239 255 173 1)
+		)
+		(uuid da2ea38f-c2ce-4103-beb6-fae40fbb4edd)
+	)
+	(rectangle
+		(start 231.14 119.38)
+		(end 266.7 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e25cd41a-b026-4ef8-9694-ef78cc87e7e7)
+	)
+	(rectangle
+		(start 87.376 152.146)
+		(end 105.156 162.306)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 241 255 1)
+		)
+		(uuid e309d4d0-8d47-4488-be89-aad126fa3b75)
+	)
+	(rectangle
+		(start 58.42 48.26)
+		(end 71.12 71.12)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 42 61 1)
+		)
+		(uuid f8a93994-db4b-47ef-9956-dd576510e588)
+	)
+	(rectangle
+		(start 15.24 111.76)
+		(end 38.1 132.08)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fb13ad53-208f-4823-87b4-2d9549d44a60)
+	)
+	(rectangle
+		(start 15.24 81.28)
+		(end 38.1 101.6)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fde8ba26-5f45-477f-9796-4ecf237fa3c8)
+	)
+	(text "ACTIVE"
+		(exclude_from_sim no)
+		(at 121.92 51.054 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "0849c8cb-49c6-4166-82bb-87634fed8c76")
+	)
+	(text "SPI"
+		(exclude_from_sim no)
+		(at 65.278 151.892 90)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.1588)
+				(color 255 243 247 1)
+			)
+		)
+		(uuid "1868a77c-8a27-434e-92eb-72febb48caa0")
+	)
+	(text "RELAYS"
+		(exclude_from_sim no)
+		(at 193.04 127 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "1b514697-3bda-4745-87da-857150460720")
+	)
+	(text "BLUETOOTH & GSM\nMODULE"
+		(exclude_from_sim no)
+		(at 152.4 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(color 255 243 247 1)
+			)
+		)
+		(uuid "2d453d31-4ad3-4a8e-aff7-5a94a78cf50a")
+	)
+	(text "1xLCD EKRAN\n1xEXP\n1xEEP\n1xRTC"
+		(exclude_from_sim no)
+		(at 16.764 90.678 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "574318c9-f14a-4f18-aee3-73555907b208")
+	)
+	(text "MOUNTING HOLES\nM3"
+		(exclude_from_sim no)
+		(at 389.382 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7257c85f-b40c-4a6e-9ec6-98c3991a692e")
+	)
+	(text "ADC"
+		(exclude_from_sim no)
+		(at 65.024 120.396 90)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.1588)
+				(color 255 243 247 1)
+			)
+		)
+		(uuid "75b7c594-f44a-4c87-923b-037bee5e4e3d")
+	)
+	(text "UART/USART"
+		(exclude_from_sim no)
+		(at 64.516 60.198 90)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.1588)
+				(color 255 243 247 1)
+			)
+		)
+		(uuid "7a7efc87-8ce5-4b84-92ba-3ea4ff2621bc")
+	)
+	(text "STAT"
+		(exclude_from_sim no)
+		(at 187.96 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e8f8952-9a21-454b-aad7-343a7f842811")
+	)
+	(text "DEACTIVE"
+		(exclude_from_sim no)
+		(at 146.558 50.8 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "a016386a-eee9-4362-9e12-08aa7b7e5bc5")
+	)
+	(text "1xEXP\n1xDebug\n1xRS-485\n1xGSM\n1xGSM UART"
+		(exclude_from_sim no)
+		(at 18.034 61.214 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "a3a3cfe8-d44f-4a08-86ad-9fd2fc7e688a")
+	)
+	(text "ERR"
+		(exclude_from_sim no)
+		(at 195.58 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6b21cc8-6a62-46f7-a471-dd3ca1bba094")
+	)
+	(text "RS-485"
+		(exclude_from_sim no)
+		(at 96.52 157.48 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "ac91a9a1-c5de-4451-bc1e-a1db8f0ed212")
+	)
+	(text "PWR"
+		(exclude_from_sim no)
+		(at 180.34 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b158307b-5ef7-4883-a01d-37bf9fdfe66a")
+	)
+	(text "MCU\nSTM32F103VET6"
+		(exclude_from_sim no)
+		(at 134.62 111.76 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "b2f623ff-3290-4bb3-9bf5-8d290baff6ea")
+	)
+	(text "4-20mA"
+		(exclude_from_sim no)
+		(at 146.304 157.734 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "be8f5a1c-e4e1-4f9f-b19d-4a761526b80e")
+	)
+	(text "POWER\n"
+		(exclude_from_sim no)
+		(at 194.056 76.962 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "c455a36a-ea6d-4d2f-8ec6-7f8ecdceeedc")
+	)
+	(text "0-5V"
+		(exclude_from_sim no)
+		(at 172.466 157.48 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "ca8c11a5-a55f-45da-a231-8255ab808bc7")
+	)
+	(text "4xMotor Sürücüsü\n1xStop Selenoidi"
+		(exclude_from_sim no)
+		(at 249.174 127.508 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "df0fe6df-21a6-4963-b859-171323b0a1cb")
+	)
+	(text "EXPANSION"
+		(exclude_from_sim no)
+		(at 121.666 157.48 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "e7661f89-7a55-40b3-bc69-da0617607e53")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 65.024 90.17 90)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.1588)
+				(color 255 243 247 1)
+			)
+		)
+		(uuid "edbe273c-8f8e-454d-a267-2b5a13290b5c")
+	)
+	(text "1x4-20mA\n1x0-5V\n1xPOWER\n"
+		(exclude_from_sim no)
+		(at 19.05 121.666 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "f4ed74f4-7c86-4b22-9285-c786eece02a4")
+	)
+	(text "I/O"
+		(exclude_from_sim no)
+		(at 97.79 50.546 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "f86c04eb-8133-433b-a924-8f93781f9b77")
+	)
+	(text "1xEXP"
+		(exclude_from_sim no)
+		(at 21.844 152.4 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "fb7a35a1-89ec-4ed5-84a9-cd9656fdbdd5")
+	)
+	(no_connect
+		(at 279.4 273.05)
+		(uuid "3e46899d-b059-4610-9e01-30d588e8fa64")
+	)
+	(no_connect
+		(at 289.56 273.05)
+		(uuid "5feb6dfc-3a1b-4bd9-ab8c-c9969aafe4a2")
+	)
+	(polyline
+		(pts
+			(xy 203.2 127) (xy 231.14 127)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "3b7b7e08-2f0b-43ef-8f4b-d479a76a45ae")
+	)
+	(polyline
+		(pts
+			(xy 375.92 22.86) (xy 403.86 22.86)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "467a2748-d803-44ef-b840-cb8700e594a0")
+	)
+	(polyline
+		(pts
+			(xy 38.1 91.44) (xy 58.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4817c8e8-a91f-4ce8-b6d6-a939a7ef8410")
+	)
+	(polyline
+		(pts
+			(xy 38.1 60.96) (xy 58.42 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8578c4eb-0882-4d3b-af3e-87b3e5c1970c")
+	)
+	(polyline
+		(pts
+			(xy 375.92 127) (xy 403.86 127)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8d76d413-9d61-495e-984d-f58d7156ab17")
+	)
+	(polyline
+		(pts
+			(xy 38.1 121.92) (xy 58.42 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c8f047-0c06-4abb-861b-10432529ab2c")
+	)
+	(polyline
+		(pts
+			(xy 375.92 22.86) (xy 375.92 127)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "d2233159-8add-44fa-953c-3bd82a0009cf")
+	)
+	(polyline
+		(pts
+			(xy 375.92 22.86) (xy 375.92 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2845405-ac28-479e-8950-838fd02e0d19")
+	)
+	(polyline
+		(pts
+			(xy 38.1 152.4) (xy 58.42 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6bae9f3-bf39-43b6-ab54-ae5d2386fa2f")
+	)
+	(polyline
+		(pts
+			(xy 403.86 15.24) (xy 403.86 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7916413-2e03-4167-9dd9-ff8c172e3ee0")
+	)
+	(polyline
+		(pts
+			(xy 403.86 127) (xy 403.86 22.86)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ebf46604-25f4-4da4-b454-8df569ca1591")
+	)
+	(polyline
+		(pts
+			(xy 375.92 15.24) (xy 403.86 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed41241a-64b3-4148-ba95-b25bdcb824c5")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 398.78 104.14 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "00a7464d-0bd5-4aa6-89ee-0cdf45de7dc9")
+		(property "Reference" "H13"
+			(at 396.24 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 396.24 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 398.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 398.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 398.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" ""
+			(at 398.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "H13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 398.78 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08a129a7-777e-446f-a3be-f10216b99149")
+		(property "Reference" "H5"
+			(at 396.24 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 396.24 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 398.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 398.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 398.78 71.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b5f8967-7c54-4f4d-ba2a-04c5bfc30330")
+		(property "Reference" "H8"
+			(at 396.24 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 396.24 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 398.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 398.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 398.78 45.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14d84176-de02-4326-9f1e-5a3d2f4dd1d6")
+		(property "Reference" "H4"
+			(at 396.24 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 396.24 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 398.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 398.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 284.48 273.05 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "5654c5bc-bd52-471c-92a8-9fec1e8c4488")
+		(property "Reference" "SW9"
+			(at 284.48 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TOGGLE SWITCH"
+			(at 284.48 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 284.48 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 284.48 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "EG5419-ND"
+			(at 284.48 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "100SP1T2B4M7QE"
+			(at 284.48 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55d5b923-3f5e-409d-b65f-acb0442f9562")
+		)
+		(pin "2"
+			(uuid "ae0a82d4-1c0e-415c-8f3e-db4f0e4b5b36")
+		)
+		(instances
+			(project ""
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 398.78 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "581dee26-0dcc-40e5-ba4c-cac0d2db894e")
+		(property "Reference" "H12"
+			(at 396.24 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 396.24 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 398.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 398.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 398.78 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "585b0acc-8790-4d74-97c1-42bfe13e72ee")
+		(property "Reference" "H10"
+			(at 396.24 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 396.24 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 398.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 398.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 398.78 118.11 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bd01455-b84c-400f-9c4d-0b2544465d6c")
+		(property "Reference" "H15"
+			(at 396.24 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 396.24 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 398.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 398.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 398.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" ""
+			(at 398.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "H15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 398.78 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65751bfc-a671-4578-a1cc-a898500b48a0")
+		(property "Reference" "H7"
+			(at 396.24 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 396.24 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 398.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 398.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 398.78 111.76 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cb6070d-454f-4cbb-9c50-4ae7b96480f3")
+		(property "Reference" "H14"
+			(at 396.24 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 396.24 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 398.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 398.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 398.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" ""
+			(at 398.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "H14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 398.78 33.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6da4f9c9-8675-4c98-a2f5-cd1b208961f0")
+		(property "Reference" "H2"
+			(at 396.24 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 396.24 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 398.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 398.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 398.78 124.46 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "96590157-1240-43b6-a52d-7082bc8d2a1b")
+		(property "Reference" "H16"
+			(at 396.24 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 396.24 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 398.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 398.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 398.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" ""
+			(at 398.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "H16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 398.78 26.67 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bab6aa99-6af8-435c-8e2f-80d44fe04011")
+		(property "Reference" "H1"
+			(at 396.24 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 396.24 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 398.78 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 398.78 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 398.78 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd69072e-fe6f-471a-9670-dd4f24d8ef3c")
+		(property "Reference" "H6"
+			(at 396.24 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 396.24 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 398.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 398.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 398.78 39.37 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d43eecee-715a-4485-9c21-e7b35e64e203")
+		(property "Reference" "H3"
+			(at 396.24 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 396.24 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 398.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 398.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 398.78 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1a63e06-813a-4bf5-a9bb-9bc9ec1d1d8d")
+		(property "Reference" "H9"
+			(at 396.24 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 396.24 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 398.78 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 398.78 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 398.78 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbe552a8-3ed7-4b71-a559-4a910cff934b")
+		(property "Reference" "H11"
+			(at 396.24 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 396.24 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 398.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 398.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 323.85 173.99)
+		(size 74.93 57.15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1cfb8c3d-38dd-4389-b63b-8c54c03b4fa4")
+		(property "Sheetname" "digital_inputs"
+			(at 323.85 173.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digital_inputs.kicad_sch"
+			(at 323.85 231.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 336.55 132.08)
+		(size 60.96 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2eb53e55-0887-4adb-aa0b-be5f8375bd69")
+		(property "Sheetname" "motor_suruculeri"
+			(at 336.55 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_suruculeri.kicad_sch"
+			(at 336.55 173.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 278.13 24.13)
+		(size 69.85 74.93)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a4be2ba-9d77-4408-8d0d-2fc86a0a0ed5")
+		(property "Sheetname" "POWER SCHEMATIC"
+			(at 278.13 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_schematic.kicad_sch"
+			(at 278.13 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 292.1 153.67)
+		(size 19.05 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be3786e7-fa02-4dfb-91d6-272724fddc2a")
+		(property "Sheetname" "MCU"
+			(at 292.1 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 292.1 187.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 273.05 113.03)
+		(size 50.8 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c9847003-7b72-41a1-9e8d-4a11c602bb8d")
+		(property "Sheetname" "Sensors_AND_Connectors_Sch"
+			(at 273.05 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 273.05 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 288.29 199.39)
+		(size 33.02 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d11e2617-224a-412c-bf3a-a21a80ddcd74")
+		(property "Sheetname" "Analog_In"
+			(at 288.29 198.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog_In.kicad_sch"
+			(at 288.29 222.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "staj_proje"
+				(path "/0a40114f-700d-4a7c-828c-e244751d349b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
